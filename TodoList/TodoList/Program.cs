@@ -1,15 +1,23 @@
+using TodoList.Data;
+using TodoList.Interfaces;
+using TodoList.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+var conn = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<DataContext>(options => options.UseNpgsql(conn));
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IUsersService, UsersService>();
+builder.Services.AddScoped<ITasksService, TasksService>();
+builder.Services.AddScoped<IProjectsService, ProjectsService>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
