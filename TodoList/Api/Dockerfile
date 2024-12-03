@@ -14,17 +14,17 @@ COPY ["Application/Application.csproj", "Application/"]
 COPY ["Domain/Domain.csproj", "Domain/"]
 COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
 
-# Restaurando as dependências
+# Restaurando as dependÃªncias
 RUN dotnet restore "Api/Api.csproj"
 
-# Copiando o restante do código
+# Copiando o restante do cÃ³digo
 COPY . .
 
 # Build do projeto
 WORKDIR "/src/Api"
 RUN dotnet build "Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
-# Etapa de publicação
+# Etapa de publicaÃ§Ã£o
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false

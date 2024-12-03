@@ -14,19 +14,19 @@ namespace Api.Controllers
             _projectsService = projectsService;
         }
 
-        [HttpPost]
-        public async Task<ActionResult<Project>> CreateTransactions(Project project)
-        {
-            try
-            {
-                var result = await _projectsService.CreateProject(project);
-                return Ok(result);
-            }
-            catch
-            {
-                return StatusCode(500, "Internal server failure.");
-            }
-        }
+        //[HttpPost]
+        //public async Task<ActionResult<Project>> CreateTransactions(Project project)
+        //{
+        //    try
+        //    {
+        //        var result = await _projectsService.CreateProject(project);
+        //        return Ok(result);
+        //    }
+        //    catch
+        //    {
+        //        return StatusCode(500, "Internal server failure.");
+        //    }
+        //}
 
     }
 }

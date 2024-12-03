@@ -1,24 +1,27 @@
 ﻿using Application.Services.Interfaces;
 using Domain.Entities;
-using Infrastructure.Data;
+using Infrastructure.Repositories.Interfaces;
 
 namespace Application.Services
 {
     public class UsersService : IUsersService
     {
-        private readonly DataContext _context;
-
-        public UsersService(DataContext context)
+        private readonly IUsersRepository _usersRepository;
+        public UsersService(IUsersRepository usersRepository)
         {
-            _context = context ?? throw new ArgumentNullException(nameof(context));
+            _usersRepository = usersRepository;
         }
 
-        //public async Task<List<Project>> GetProjects(Guid userId)
-        //{
-        //    var user = await _context.Users.Include(u => u.Projects)
-        //    .FirstOrDefaultAsync(u => u.Id == userId);
+        public async Task<List<Project>> GetProjects(Guid userId)
+        {
+            var result = await _usersRepository.GetProjects(userId);
 
-        //    return user?.Projects.ToList() ?? new List<Project>();
-        //}
+            if (result == null || !result.Any())
+            {
+                throw new Exception("O usuário não tem projetos.");
+            }
+
+            return result;
+        }
     }
 }

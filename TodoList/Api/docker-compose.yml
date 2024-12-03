@@ -7,12 +7,12 @@ networks:
 services:
   app-demo:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: ../
+      dockerfile: Api/Dockerfile
     image: appdemo:latest
     container_name: appdemo-service
     ports:
-      - "5009:80"
+      - "8080:80"
     depends_on:
       - app_db
     environment:

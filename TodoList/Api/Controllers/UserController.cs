@@ -19,12 +19,12 @@ namespace TodoList.Controllers
         {
             try
             {
-                //var result = await _usersService.GetProjects(id);
+                var result = await _usersService.GetProjects(id);
                 return Ok();
             }
-            catch
+            catch(Exception ex)
             {
-                return StatusCode(500, "Internal server failure.");
+                return StatusCode(404, ex.Message);
             }
         }
     }

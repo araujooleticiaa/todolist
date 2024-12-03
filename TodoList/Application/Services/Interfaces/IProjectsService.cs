@@ -5,6 +5,6 @@ namespace Application.Services.Interfaces
 {
     public interface IProjectsService
     {
-        Task<Project> CreateProject(Project project);
+        //Task<Project> CreateProject(Project project);
     }
 }
