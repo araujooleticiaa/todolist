@@ -14,12 +14,12 @@ namespace Application.Services
 
         public async Task<TaskItem> CreateTaskItem(TaskItem taskItem)
         {
-            if (taskItem.Project.TaskItem.Count > 20)
+            if (taskItem.Project.TaskItem.Count > 20) 
             {
                 throw new Exception("O projeto atingiu o limite de tarefas");
             }
 
-            TaskItem newTaskItem = new TaskItem(taskItem.Title, taskItem.Description, taskItem.DueDate, taskItem.Status, taskItem.Properties, taskItem.ProjectId, taskItem.Project);
+            TaskItem newTaskItem = new TaskItem(taskItem.Title, taskItem.Description, taskItem.DueDate, taskItem.Status, taskItem.Properties, taskItem.Comments, taskItem.ProjectId);
             TaskItem result = _taskItemRepository.CreateTaskItem(newTaskItem);
             return result;
         }
