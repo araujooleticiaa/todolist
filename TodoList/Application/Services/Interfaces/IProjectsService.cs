@@ -7,5 +7,7 @@ namespace Application.Services.Interfaces
     {
         Task<Project> CreateProject(Project project);
         Task<List<TaskItem>> GetTaskItems(Guid projectId);
+        Project GetProjectById(Guid projectId);
+        Task<bool> DeleteProject(Guid projectId);
     }
 }

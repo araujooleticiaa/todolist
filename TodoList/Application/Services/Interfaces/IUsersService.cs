@@ -1,9 +1,11 @@
-﻿using Domain.Entities;
+﻿using Domain.Entities.Domain.Entities;
 
 namespace Application.Services.Interfaces
 {
     public interface IUsersService
-    {
-        Task<List<Project>> GetProjects(Guid UserId);
-    }
+	{
+		Task<User> GetUserById(Guid UserId);
+
+		Task<User> CreateUser(User user);
+	}
 }

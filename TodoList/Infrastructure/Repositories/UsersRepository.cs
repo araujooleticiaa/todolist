@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Entities.Domain.Entities;
 using Infrastructure.Data;
 using Infrastructure.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -14,13 +15,18 @@ namespace Infrastructure.Repositories
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<List<Project>> GetProjects(Guid userId)
+        public async Task<User> GetUserById(Guid userId)
         {
-            var user = await _context.Users
-             .Include(u => u.Projects)
-             .FirstOrDefaultAsync(u => u.Id == userId);
+            var user = _context.Users.AsNoTracking().FirstOrDefault(p => p.Id == userId);
+			return user;
+		}
 
-            return user?.Projects.ToList();
-        }
-    }
+		public async Task<User> CreateUser(User user)
+		{
+			await _context.Users.AddAsync(user);
+			await _context.SaveChangesAsync();
+			return user;
+		}
+
+	}
 }

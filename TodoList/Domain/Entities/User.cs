@@ -5,9 +5,10 @@ namespace Domain.Entities
 {
     namespace Domain.Entities
     {
-        public class User : BaseModel
+        public class User 
         {
-            public string Name { get; set; }
+			public Guid Id { get; set; } = Guid.NewGuid(); 
+			public string? Name { get; set; }
             public EFunction Role { get; set; }
 
             [JsonIgnore]

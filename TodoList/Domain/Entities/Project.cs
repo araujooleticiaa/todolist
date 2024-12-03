@@ -3,14 +3,15 @@ using System.Text.Json.Serialization;
 
 namespace Domain.Entities
 {
-    public class Project : BaseModel
+    public class Project 
     {
-        public Project() { }
-        public Project(string name, Guid userId)
-        {
-            Name = name;
-            UserId = userId;
-        }
+		public Project(string name, Guid userId) 
+		{
+			Name = name;
+			UserId = userId; 
+		}
+
+		public Guid ID { get; set; }  = Guid.NewGuid();
 
         public string Name { get; set; }
 

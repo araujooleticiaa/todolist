@@ -16,14 +16,26 @@ namespace Infrastructure.Repositories
 
         public async Task<TaskItem> CreateTaskItem(TaskItem taskItem)
         {
-            _context.TaskItems.Add(taskItem);
+            var existingProject = await _context.Projects
+                .FirstOrDefaultAsync(p => p.ID == taskItem.ProjectId);
+
+            if (existingProject == null)
+            {
+                throw new InvalidOperationException("Projeto associado à tarefa não existe.");
+            }
+
+            taskItem.Project = existingProject;
+
+            await _context.TaskItems.AddAsync(taskItem);
             await _context.SaveChangesAsync();
+
             return taskItem;
+
         }
 
         public TaskItem GetTaskItemById(Guid taskItemId)
         {
-            var taskItem = _context.TaskItems.AsNoTracking().FirstOrDefault(p => p.Id == taskItemId);
+            var taskItem = _context.TaskItems.AsNoTracking().FirstOrDefault(p => p.ID == taskItemId);
             return taskItem;
         }
 
@@ -33,9 +45,10 @@ namespace Infrastructure.Repositories
             var result = _context.SaveChanges();
             return result == 1;
         }
+
         public TaskItem UpdateTaskItem(TaskItem taskItem)
         {
-            var taskItemOld = _context.TaskItems.First(p => p.Id == taskItem.Id);
+            var taskItemOld = _context.TaskItems.First(p => p.ID == taskItem.ID);
 
             var historyEntries = new List<History>();
 
@@ -43,7 +56,7 @@ namespace Infrastructure.Repositories
             {
                 historyEntries.Add(new History
                 {
-                    TaskId = taskItem.Id,
+                    TaskId = taskItem.ID,
                     ModifiedField = nameof(taskItem.Title),
                     PreviousValue = taskItemOld.Title,
                     NewValue = taskItem.Title,
@@ -57,7 +70,7 @@ namespace Infrastructure.Repositories
             {
                 historyEntries.Add(new History
                 {
-                    TaskId = taskItem.Id,
+                    TaskId = taskItem.ID,
                     ModifiedField = nameof(taskItem.Description),
                     PreviousValue = taskItemOld.Description,
                     NewValue = taskItem.Description,
@@ -71,7 +84,7 @@ namespace Infrastructure.Repositories
             {
                 historyEntries.Add(new History
                 {
-                    TaskId = taskItem.Id,
+                    TaskId = taskItem.ID,
                     ModifiedField = nameof(taskItem.DueDate),
                     PreviousValue = taskItemOld.DueDate.ToString("o"),
                     NewValue = taskItem.DueDate.ToString("o"),
@@ -85,7 +98,7 @@ namespace Infrastructure.Repositories
             {
                 historyEntries.Add(new History
                 {
-                    TaskId = taskItem.Id,
+                    TaskId = taskItem.ID,
                     ModifiedField = nameof(taskItem.Status),
                     PreviousValue = taskItemOld.Status.ToString(),
                     NewValue = taskItem.Status.ToString(),

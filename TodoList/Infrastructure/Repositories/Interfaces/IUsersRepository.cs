@@ -1,14 +1,10 @@
-﻿using Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Entities.Domain.Entities;
 
 namespace Infrastructure.Repositories.Interfaces
 {
     public interface IUsersRepository
     {
-        Task<List<Project>> GetProjects(Guid userId);
+        Task<User> GetUserById(Guid userId);   
+        Task<User> CreateUser(User user);
     }
 }

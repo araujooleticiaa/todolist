@@ -3,13 +3,8 @@ using System.Text.Json.Serialization;
 
 namespace Domain.Entities
 {
-    public class TaskItem : BaseModel
+    public class TaskItem
     {
-        public TaskItem()
-        {
-            
-        }
-
         public TaskItem(string title, string description, DateTime dueDate, EStatus status, EProperty properties, string comments, Guid projectId)
         {
             Title = title;
@@ -21,6 +16,7 @@ namespace Domain.Entities
             ProjectId = projectId;
         }
 
+        public Guid ID { get; set; } = Guid.NewGuid();
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime DueDate { get; set; }

@@ -1,31 +1,48 @@
-﻿using Application.Services.Interfaces;
-using Domain.Entities;
+﻿using Application.DTO;
+using Application.Services.Interfaces;
+using Domain.Entities.Domain.Entities;
+using Domain.Enums;
 using Microsoft.AspNetCore.Mvc;
 
-namespace TodoList.Controllers
+[ApiController]
+[Route("[controller]")]
+public class UserController : ControllerBase
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class UserController : ControllerBase
-    {
-        private readonly IUsersService _usersService;
-        public UserController(IUsersService usersService)
-        {
-            _usersService = usersService;
-        }
+	private readonly IUsersService _usersService;
 
-        [HttpGet]
-        public async Task<ActionResult<List<Project>>> Get(Guid userId)
-        {
-            try
-            {
-                var result = await _usersService.GetProjects(userId);
-                return Ok(result);
-            }
-            catch(Exception ex)
-            {
-                return StatusCode(404, ex.Message);
-            }
-        }
-    }
+	public UserController(IUsersService usersService)
+	{
+		_usersService = usersService;
+	}
+
+	[HttpPost]
+	public async Task<ActionResult<User>> Post([FromBody] CreateUserRequest request)
+	{
+		try
+		{
+			var user = new User
+			{
+				Name = request.Name,
+				Role = (EFunction)request.Role 
+			};
+
+			var createdUser = await _usersService.CreateUser(user);
+			return Ok(createdUser);
+		}
+		catch (Exception ex)
+		{
+			return StatusCode(500, ex.Message); 
+		}
+	}
+
+	[HttpGet("{userId}")]
+	public async Task<ActionResult<User>> GetUserById(Guid userId)
+	{
+		var user = await _usersService.GetUserById(userId);
+		if (user == null)
+		{
+			return NotFound();
+		}
+		return Ok(user);
+	}
 }

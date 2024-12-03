@@ -1,27 +1,36 @@
 ﻿using Application.Services.Interfaces;
 using Domain.Entities;
+using Domain.Entities.Domain.Entities;
 using Infrastructure.Repositories.Interfaces;
 
 namespace Application.Services
 {
-    public class UsersService : IUsersService
-    {
-        private readonly IUsersRepository _usersRepository;
-        public UsersService(IUsersRepository usersRepository)
-        {
-            _usersRepository = usersRepository;
-        }
+	public class UsersService : IUsersService
+	{
+		private readonly IUsersRepository _usersRepository;
+		public UsersService(IUsersRepository usersRepository)
+		{
+			_usersRepository = usersRepository;
+		}
 
-        public async Task<List<Project>> GetProjects(Guid userId)
-        {
-            var result = await _usersRepository.GetProjects(userId);
+		public async Task<User> GetUserById(Guid userID)
+		{
+			User user = await _usersRepository.GetUserById(userID);
+			return user;	
 
-            if (result == null || !result.Any())
-            {
-                throw new Exception("O usuário não tem projetos.");
-            }
+		}
 
-            return result;
-        }
-    }
+		public async Task<User> CreateUser(User user)
+		{
+			var createdUser = await _usersRepository.CreateUser(user);
+			if (createdUser == null)
+			{
+				throw new Exception("O Usuario não foi criado.");
+
+			}
+
+			return createdUser;
+		}
+	}
+
 }
