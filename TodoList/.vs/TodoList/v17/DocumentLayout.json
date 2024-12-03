@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "D:\\leticia\\testes\\todolist\\TodoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|d:\\leticia\\testes\\todolist\\todolist\\application\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|solutionrelative:application\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|d:\\leticia\\testes\\todolist\\todolist\\infrastructure\\repositories\\taskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\taskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|d:\\leticia\\testes\\todolist\\todolist\\api\\controllers\\taskitemcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|solutionrelative:api\\controllers\\taskitemcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|d:\\leticia\\testes\\todolist\\todolist\\infrastructure\\repositories\\interfaces\\itaskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\interfaces\\itaskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|d:\\leticia\\testes\\todolist\\todolist\\api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|solutionrelative:api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|d:\\leticia\\testes\\todolist\\todolist\\application\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|solutionrelative:application\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|d:\\leticia\\testes\\todolist\\todolist\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|d:\\leticia\\testes\\todolist\\todolist\\infrastructure\\repositories\\projectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\projectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|d:\\leticia\\testes\\todolist\\todolist\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|d:\\leticia\\testes\\todolist\\todolist\\infrastructure\\repositories\\interfaces\\iprojectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\interfaces\\iprojectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|d:\\leticia\\testes\\todolist\\todolist\\infrastructure\\repositories\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|d:\\leticia\\testes\\todolist\\todolist\\infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|d:\\leticia\\testes\\todolist\\todolist\\api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|solutionrelative:api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|d:\\leticia\\testes\\todolist\\todolist\\api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|solutionrelative:api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|d:\\leticia\\testes\\todolist\\todolist\\application\\services\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|solutionrelative:application\\services\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,32 +34,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 179,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ITaskItemRepository.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\Interfaces\\ITaskItemRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Interfaces\\ITaskItemRepository.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\Interfaces\\ITaskItemRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Interfaces\\ITaskItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:09:58.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TaskItemService.cs",
               "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\TaskItemService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\TaskItemService.cs",
               "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\TaskItemService.cs",
               "RelativeToolTip": "Application\\Services\\TaskItemService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:03:49.245Z",
+              "WhenOpened": "2024-12-03T16:09:47.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskItemRepository.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\TaskItemRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\TaskItemRepository.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\TaskItemRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\TaskItemRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAqwB4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProjectsRepository.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\ProjectsRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProjectsRepository.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\ProjectsRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ProjectsRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:01:52.599Z",
+              "WhenOpened": "2024-12-03T16:08:26.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProjectsRepository.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\Interfaces\\IProjectsRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Interfaces\\IProjectsRepository.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\Interfaces\\IProjectsRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Interfaces\\IProjectsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:08:02.941Z",
               "EditorCaption": ""
             },
             {
@@ -96,106 +106,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskItemControllers.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Controllers\\TaskItemControllers.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\TaskItemControllers.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Controllers\\TaskItemControllers.cs",
-              "RelativeToolTip": "Api\\Controllers\\TaskItemControllers.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCQAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:00:34.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\Interfaces\\IUsersRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Interfaces\\IUsersRepository.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\Interfaces\\IUsersRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\Interfaces\\IUsersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:55:01.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UsersRepository.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UsersRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAawAcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:54:08.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:33:06.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProjectsController.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Controllers\\ProjectsController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\ProjectsController.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Controllers\\ProjectsController.cs",
-              "RelativeToolTip": "Api\\Controllers\\ProjectsController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wCUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:33:06.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Dockerfile",
-              "RelativeDocumentMoniker": "Api\\Dockerfile",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Dockerfile",
-              "RelativeToolTip": "Api\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-03T15:35:51.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\docker-compose.yml",
-              "RelativeDocumentMoniker": "Api\\docker-compose.yml",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\docker-compose.yml",
-              "RelativeToolTip": "Api\\docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-12-03T15:35:00.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Program.cs",
-              "RelativeDocumentMoniker": "Api\\Program.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Program.cs",
-              "RelativeToolTip": "Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Title": "ProjectsService.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\ProjectsService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ProjectsService.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\ProjectsService.cs*",
+              "RelativeToolTip": "Application\\Services\\ProjectsService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:34:49.681Z",
+              "WhenOpened": "2024-12-03T16:07:55.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskItemRepository.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAQwBQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:07:53.615Z",
               "EditorCaption": ""
             }
           ]

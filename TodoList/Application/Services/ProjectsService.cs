@@ -15,7 +15,7 @@ namespace Application.Services
         public async Task<Project> CreateProject(Project project)
         {
             Project newProject = new Project(project.Name, project.UserId);
-            Project result =  _projectsRepository.CreateProject(newProject);
+            Project result = await _projectsRepository.CreateProject(newProject);
             return result;
         }
 

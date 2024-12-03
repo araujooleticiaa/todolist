@@ -14,10 +14,10 @@ namespace Infrastructure.Repositories
             _context = context;
         }
 
-        public Project CreateProject(Project project)
+        public async Task<Project> CreateProject(Project project)
         {
             _context.Projects.Add(project);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
 
             return project;
         }

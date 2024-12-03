@@ -20,7 +20,7 @@ namespace Application.Services
             }
 
             TaskItem newTaskItem = new TaskItem(taskItem.Title, taskItem.Description, taskItem.DueDate, taskItem.Status, taskItem.Properties, taskItem.Comments, taskItem.ProjectId);
-            TaskItem result = _taskItemRepository.CreateTaskItem(newTaskItem);
+            TaskItem result = await _taskItemRepository.CreateTaskItem(newTaskItem);
             return result;
         }
 

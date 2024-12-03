@@ -14,10 +14,10 @@ namespace Infrastructure.Repositories
             _context = context;
         }
 
-        public TaskItem CreateTaskItem(TaskItem taskItem)
+        public async Task<TaskItem> CreateTaskItem(TaskItem taskItem)
         {
             _context.TaskItems.Add(taskItem);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return taskItem;
         }
 
