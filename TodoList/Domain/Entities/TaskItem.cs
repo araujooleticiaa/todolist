@@ -9,15 +9,16 @@ namespace Domain.Entities
         {
             
         }
-        public TaskItem(string title, string description, DateTime dueDate, EStatus status, EProperty properties, Guid projectId, Project project)
+
+        public TaskItem(string title, string description, DateTime dueDate, EStatus status, EProperty properties, string comments, Guid projectId)
         {
             Title = title;
             Description = description;
             DueDate = dueDate;
             Status = status;
             Properties = properties;
+            Comments = comments;
             ProjectId = projectId;
-            Project = project;
         }
 
         public string Title { get; set; }
@@ -25,8 +26,8 @@ namespace Domain.Entities
         public DateTime DueDate { get; set; }
         public EStatus Status { get; set; }
         public EProperty Properties { get; set; }
+        public string Comments { get; set; }
         public Guid ProjectId { get; set; }
-
         public Project Project { get; set; }
 
         [JsonIgnore]
