@@ -29,7 +29,7 @@ namespace Api.Controllers
         }
 
         [HttpDelete("{id:Guid}")]
-        public ActionResult DeleteProduct([FromRoute] Guid id)
+        public ActionResult Delete([FromRoute] Guid id)
         {
 
             try

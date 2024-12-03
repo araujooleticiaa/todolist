@@ -7,6 +7,6 @@ namespace Application.Services.Interfaces
         Task<TaskItem> CreateTaskItem(TaskItem taskItem);
         TaskItem GetTaskItemById(Guid taskItemId);
         bool DeleteTaskItem(Guid taskItemId);
-        TaskItem UpdateTaskItem(TaskItem product);
+        TaskItem UpdateTaskItem(TaskItem taskItemId);
     }
 }
