@@ -1,22 +1,34 @@
 ﻿using Application.Services.Interfaces;
 using Domain.Entities;
-using Infrastructure.Data;
+using Infrastructure.Repositories.Interfaces;
 
 namespace Application.Services
 {
     public class ProjectsService : IProjectsService
     {
-        //public async Task<Project> CreateProject(Project project)
-        //{
-        //    try
-        //    {
-               
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new ArgumentOutOfRangeException("Parameter index is out of range.", ex);
-        //    }
+        private readonly IProjectsRepository _projectsRepository;
+        public ProjectsService(IProjectsRepository projectsRepository)
+        {
+            _projectsRepository = projectsRepository;
+        }
 
-        //}
+        public async Task<Project> CreateProject(Project project)
+        {
+            Project newProject = new Project(project.Name, project.UserId);
+            Project result =  _projectsRepository.CreateProject(newProject);
+            return result;
+        }
+
+        public async Task<List<TaskItem>> GetTaskItems(Guid projectId)
+        {
+            var result = await _projectsRepository.GetTaskItems(projectId);
+
+            if (result == null || !result.Any())
+            {
+                throw new Exception("O Projeto não tem tarefas.");
+            }
+
+            return result;
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Application.Services.Interfaces;
+﻿using Application.Services;
+using Application.Services.Interfaces;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,19 +15,33 @@ namespace Api.Controllers
             _projectsService = projectsService;
         }
 
-        //[HttpPost]
-        //public async Task<ActionResult<Project>> CreateTransactions(Project project)
-        //{
-        //    try
-        //    {
-        //        var result = await _projectsService.CreateProject(project);
-        //        return Ok(result);
-        //    }
-        //    catch
-        //    {
-        //        return StatusCode(500, "Internal server failure.");
-        //    }
-        //}
+        [HttpPost]
+        public async Task<ActionResult<Project>> Post(Project project)
+        {
+            try
+            {
+                var result = await _projectsService.CreateProject(project);
+                return Ok(result);
+            }
+            catch(Exception ex) 
+            {
+                return StatusCode(404, ex.Message);
+            }
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<TaskItem>>> Get(Guid projectId)
+        {
+            try
+            {
+                var result = await _projectsService.GetTaskItems(projectId);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(404, ex.Message);
+            }
+        }
 
     }
 }

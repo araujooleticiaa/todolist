@@ -24,19 +24,14 @@ builder.Services.AddScoped<IProjectsRepository, ProjectsRepository>();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TodoList API v1"));
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
-if (!app.Environment.IsProduction())
-{
-    app.UseHttpsRedirection();
-}
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
+

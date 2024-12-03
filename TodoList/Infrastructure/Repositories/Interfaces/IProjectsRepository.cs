@@ -9,6 +9,7 @@ namespace Infrastructure.Repositories.Interfaces
 {
     public interface IProjectsRepository
     {
-        Project CreateProduct(Project project);
+        Project CreateProject(Project project);
+        Task<List<TaskItem>> GetTaskItems(Guid projectId);
     }
 }

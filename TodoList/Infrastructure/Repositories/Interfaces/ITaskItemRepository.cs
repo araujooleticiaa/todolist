@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +10,9 @@ namespace Infrastructure.Repositories.Interfaces
 {
     public interface ITaskItemRepository
     {
+        TaskItem CreateTaskItem(TaskItem taskItem);
+        TaskItem GetTaskItemById(Guid taskItemId);
+        bool DeleteTaskItem(TaskItem taskItem);
+        TaskItem UpdateTaskItem(TaskItem taskItem);
     }
 }
