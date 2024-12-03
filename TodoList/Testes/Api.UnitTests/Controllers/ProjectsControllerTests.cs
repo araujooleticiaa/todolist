@@ -2,8 +2,10 @@
 using Application.Services.Interfaces;
 using Domain.Entities;
 using Domain.Entities.Domain.Entities;
+using Domain.Enums;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using System.Threading.Tasks;
 
 namespace Api.UnitTests.Controllers
 {
@@ -66,43 +68,27 @@ namespace Api.UnitTests.Controllers
             Assert.Equal($"Esse {request.UserId} não existe.", actionResult.Value);
         }
 
-        //[Fact]
-        //public async Task Get_ShouldReturnOk_WhenProjectExists()
-        //{
-        //    // Arrange
-        //    var projectId = Guid.NewGuid();
-        //    var taskItems = new List<TaskItem>
-        //    {
-        //        new TaskItem { ID = Guid.NewGuid(), Title = "Tarefa 1", Description = "Description1", DueDate = DateTime.Now, Status = Domain.Enums.EStatus.Progress, Properties = Domain.Enums.EProperty.Low, Comments = "Ola mundo", ProjectId = Guid.NewGuid() },
-        //        new TaskItem { ID = Guid.NewGuid(), Title = "Tarefa 2", Description = "Description1", DueDate = DateTime.Now, Status = Domain.Enums.EStatus.Progress, Properties = Domain.Enums.EProperty.Low, Comments = "Ola mundo", ProjectId = Guid.NewGuid() },
-        //    };
+        [Fact]
+        public async Task Get_ShouldReturnOk_WhenProjectExists()
+        {
+            // Arrange
+            var projectId = Guid.NewGuid();
+            var taskItems = new List<TaskItem>
+            {
+                new TaskItem("Updated Task", "Updated Description", DateTime.UtcNow.AddDays(5), EStatus.Pending, EProperty.Medium, "aqui está um comentario", Guid.NewGuid()),
+                new TaskItem("Updated Task", "Updated Description", DateTime.UtcNow.AddDays(5), EStatus.Pending, EProperty.Medium, "aqui está um comentario", Guid.NewGuid())
+            };
 
-        //    _projectsServiceMock.Setup(s => s.GetTaskItems(projectId)).ReturnsAsync(taskItems);
+            _projectsServiceMock.Setup(s => s.GetTaskItems(projectId)).ReturnsAsync(taskItems);
 
-        //    // Act
-        //    var result = await _controller.Get(projectId);
+            // Act
+            var result = await _controller.Get(projectId);
 
-        //    // Assert
-        //    var actionResult = Assert.IsType<OkObjectResult>(result.Result);
-        //    var returnedTasks = Assert.IsType<List<TaskItem>>(actionResult.Value);
-        //    Assert.Equal(2, returnedTasks.Count);
-        //}
-
-        //[Fact]
-        //public void Delete_ShouldReturnOk_WhenDeletionIsSuccessful()
-        //{
-        //    // Arrange
-        //    var projectId = Guid.NewGuid();
-
-        //    _projectsServiceMock.Setup(s => s.DeleteProject(projectId)).Returns(true);
-
-        //    // Act
-        //    var result = _controller.Delete(projectId);
-
-        //    // Assert
-        //    var actionResult = Assert.IsType<OkObjectResult>(result);
-        //    Assert.True((bool)actionResult.Value);
-        //}
+            // Assert
+            var actionResult = Assert.IsType<OkObjectResult>(result.Result);
+            var returnedTasks = Assert.IsType<List<TaskItem>>(actionResult.Value);
+            Assert.Equal(2, returnedTasks.Count);
+        }
 
         [Fact]
         public void Delete_ShouldReturnStatusCode500_WhenDeletionFails()
