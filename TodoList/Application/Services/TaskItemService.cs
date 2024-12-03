@@ -26,8 +26,8 @@ namespace Application.Services
 
         public TaskItem GetTaskItemById(Guid taskItemId)
         {
-            TaskItem product = _taskItemRepository.GetTaskItemById(taskItemId);
-            return product;
+            TaskItem taskItem = _taskItemRepository.GetTaskItemById(taskItemId);
+            return taskItem;
         }
 
         public bool DeleteTaskItem(Guid taskItemId)

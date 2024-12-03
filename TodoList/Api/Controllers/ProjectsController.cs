@@ -35,7 +35,7 @@ namespace Api.Controllers
             try
             {
                 var result = await _projectsService.GetTaskItems(projectId);
-                return Ok();
+                return Ok(result);
             }
             catch (Exception ex)
             {

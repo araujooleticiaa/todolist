@@ -15,12 +15,12 @@ namespace TodoList.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Project>>> Get(Guid id)
+        public async Task<ActionResult<List<Project>>> Get(Guid userId)
         {
             try
             {
-                var result = await _usersService.GetProjects(id);
-                return Ok();
+                var result = await _usersService.GetProjects(userId);
+                return Ok(result);
             }
             catch(Exception ex)
             {
