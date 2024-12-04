@@ -1,0 +1,53 @@
+# Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# Debug and Release folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Auto-generated files
+*.log
+*.tlog
+*.ide
+*.ipch
+*.VC.db
+*.VC.VC.opendb
+*.pidb
+*.opendb
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Web files
+.bundle/
+.cache/
+
+# Resharper files
+_ReSharper.Caches/
+
+# NPM files
+node_modules/
+
+# Rider files
+.idea/
