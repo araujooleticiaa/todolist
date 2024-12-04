@@ -1,11 +1,9 @@
 ﻿using Application.DTO;
 using Application.Services.Interfaces;
 using Domain.Entities;
-using Domain.Entities.Domain.Entities;
 using Domain.Enums;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System.Threading.Tasks;
 
 namespace Api.UnitTests.Controllers
 {

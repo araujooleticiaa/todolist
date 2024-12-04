@@ -3,16 +3,13 @@ using System.Text.Json.Serialization;
 
 namespace Domain.Entities
 {
-    namespace Domain.Entities
+    public class User
     {
-        public class User 
-        {
-			public Guid Id { get; set; } = Guid.NewGuid(); 
-			public string? Name { get; set; }
-            public EFunction Role { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public string? Name { get; set; }
+        public EFunction Role { get; set; }
 
-            [JsonIgnore]
-            public ICollection<Project> Projects { get; set; } = new List<Project>();
-        }
+        [JsonIgnore]
+        public ICollection<Project> Projects { get; set; } = new List<Project>();
     }
 }

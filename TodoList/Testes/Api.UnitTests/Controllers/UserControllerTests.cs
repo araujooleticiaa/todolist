@@ -1,6 +1,6 @@
 ﻿using Application.DTO;
 using Application.Services.Interfaces;
-using Domain.Entities.Domain.Entities;
+using Domain.Entities;
 using Domain.Enums;
 using Microsoft.AspNetCore.Mvc;
 using Moq;

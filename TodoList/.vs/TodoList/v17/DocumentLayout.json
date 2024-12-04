@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\leticia\\testes\\todolist\\TodoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BF3423D-182A-45CD-9C41-9ADAFBDB3217}|Testes\\Application.UnitTests\\Application.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\application.unittests\\service\\taskitemservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF3423D-182A-45CD-9C41-9ADAFBDB3217}|Testes\\Application.UnitTests\\Application.UnitTests.csproj|solutionrelative:testes\\application.unittests\\service\\taskitemservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0515A11B-915E-4D48-A5A9-31E291BEAEB0}|Testes\\Api.UnitTests\\Api.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\api.unittests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0515A11B-915E-4D48-A5A9-31E291BEAEB0}|Testes\\Api.UnitTests\\Api.UnitTests.csproj|solutionrelative:testes\\api.unittests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|d:\\leticia\\testes\\todolist\\todolist\\infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|d:\\leticia\\testes\\todolist\\todolist\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B9484A-6394-4248-93B6-BAF026F8819A}|Api\\Api.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0515A11B-915E-4D48-A5A9-31E291BEAEB0}|Testes\\Api.UnitTests\\Api.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\api.unittests\\controllers\\projectscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0515A11B-915E-4D48-A5A9-31E291BEAEB0}|Testes\\Api.UnitTests\\Api.UnitTests.csproj|solutionrelative:testes\\api.unittests\\controllers\\projectscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BF3423D-182A-45CD-9C41-9ADAFBDB3217}|Testes\\Application.UnitTests\\Application.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\application.unittests\\service\\usersservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,32 +27,64 @@
       "RelativeMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|solutionrelative:application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0515A11B-915E-4D48-A5A9-31E291BEAEB0}|Testes\\Api.UnitTests\\Api.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\api.unittests\\controllers\\taskitemcontrollerstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0515A11B-915E-4D48-A5A9-31E291BEAEB0}|Testes\\Api.UnitTests\\Api.UnitTests.csproj|solutionrelative:testes\\api.unittests\\controllers\\taskitemcontrollerstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|d:\\leticia\\testes\\todolist\\todolist\\application\\services\\interfaces\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|solutionrelative:application\\services\\interfaces\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0515A11B-915E-4D48-A5A9-31E291BEAEB0}|Testes\\Api.UnitTests\\Api.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\api.unittests\\controllers\\projectscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0515A11B-915E-4D48-A5A9-31E291BEAEB0}|Testes\\Api.UnitTests\\Api.UnitTests.csproj|solutionrelative:testes\\api.unittests\\controllers\\projectscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|d:\\leticia\\testes\\todolist\\todolist\\infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|d:\\leticia\\testes\\todolist\\todolist\\infrastructure\\repositories\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6455D2D-9C6C-4EAC-A4ED-D6912F0D2ED4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5AF1C4-70CB-41C8-B989-70C323186DA9}|Testes\\Domain.UnitTests\\Domain.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\domain.unittests\\entities\\usertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5AF1C4-70CB-41C8-B989-70C323186DA9}|Testes\\Domain.UnitTests\\Domain.UnitTests.csproj|solutionrelative:testes\\domain.unittests\\entities\\usertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5AF1C4-70CB-41C8-B989-70C323186DA9}|Testes\\Domain.UnitTests\\Domain.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\domain.unittests\\entities\\taskitemtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5AF1C4-70CB-41C8-B989-70C323186DA9}|Testes\\Domain.UnitTests\\Domain.UnitTests.csproj|solutionrelative:testes\\domain.unittests\\entities\\taskitemtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|d:\\leticia\\testes\\todolist\\todolist\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|d:\\leticia\\testes\\todolist\\todolist\\domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5AF1C4-70CB-41C8-B989-70C323186DA9}|Testes\\Domain.UnitTests\\Domain.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\domain.unittests\\entities\\projecttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5AF1C4-70CB-41C8-B989-70C323186DA9}|Testes\\Domain.UnitTests\\Domain.UnitTests.csproj|solutionrelative:testes\\domain.unittests\\entities\\projecttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5AF1C4-70CB-41C8-B989-70C323186DA9}|Testes\\Domain.UnitTests\\Domain.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\domain.unittests\\entities\\historytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5AF1C4-70CB-41C8-B989-70C323186DA9}|Testes\\Domain.UnitTests\\Domain.UnitTests.csproj|solutionrelative:testes\\domain.unittests\\entities\\historytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BF3423D-182A-45CD-9C41-9ADAFBDB3217}|Testes\\Application.UnitTests\\Application.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\application.unittests\\service\\projectsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BF3423D-182A-45CD-9C41-9ADAFBDB3217}|Testes\\Application.UnitTests\\Application.UnitTests.csproj|solutionrelative:testes\\application.unittests\\service\\projectsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|d:\\leticia\\testes\\todolist\\todolist\\application\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|solutionrelative:application\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|d:\\leticia\\testes\\todolist\\todolist\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0515A11B-915E-4D48-A5A9-31E291BEAEB0}|Testes\\Api.UnitTests\\Api.UnitTests.csproj|d:\\leticia\\testes\\todolist\\todolist\\testes\\api.unittests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0515A11B-915E-4D48-A5A9-31E291BEAEB0}|Testes\\Api.UnitTests\\Api.UnitTests.csproj|solutionrelative:testes\\api.unittests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|d:\\leticia\\testes\\todolist\\todolist\\domain\\entities\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|d:\\leticia\\testes\\todolist\\todolist\\application\\services\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|solutionrelative:application\\services\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|d:\\leticia\\testes\\todolist\\todolist\\domain\\enums\\efunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\efunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|d:\\leticia\\testes\\todolist\\todolist\\application\\dto\\createprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7337137-04D9-4EAC-AFB5-5D3C989408D9}|Application\\Application.csproj|solutionrelative:application\\dto\\createprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|d:\\leticia\\testes\\todolist\\todolist\\domain\\enums\\estatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\estatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|d:\\leticia\\testes\\todolist\\todolist\\domain\\enums\\eproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC95DE05-E8ED-4166-8911-7117C46D8CA6}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\eproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +94,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 179,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControllerTests.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Api.UnitTests\\Controllers\\UserControllerTests.cs",
+              "RelativeDocumentMoniker": "Testes\\Api.UnitTests\\Controllers\\UserControllerTests.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Api.UnitTests\\Controllers\\UserControllerTests.cs",
+              "RelativeToolTip": "Testes\\Api.UnitTests\\Controllers\\UserControllerTests.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwCIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:05:32.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\DataContext.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Data\\DataContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:05:18.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:05:01.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectsControllerTests.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Api.UnitTests\\Controllers\\ProjectsControllerTests.cs",
+              "RelativeDocumentMoniker": "Testes\\Api.UnitTests\\Controllers\\ProjectsControllerTests.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Api.UnitTests\\Controllers\\ProjectsControllerTests.cs",
+              "RelativeToolTip": "Testes\\Api.UnitTests\\Controllers\\ProjectsControllerTests.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:04:55.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\Interfaces\\IUsersService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Interfaces\\IUsersService.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\Interfaces\\IUsersService.cs",
+              "RelativeToolTip": "Application\\Services\\Interfaces\\IUsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:04:11.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UsersService.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\UsersService.cs",
+              "RelativeToolTip": "Application\\Services\\UsersService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:04:04.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\Interfaces\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Interfaces\\IUsersRepository.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\Interfaces\\IUsersRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Interfaces\\IUsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:03:44.414Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
@@ -70,132 +205,184 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersServiceTests.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Application.UnitTests\\Service\\UsersServiceTests.cs",
-              "RelativeDocumentMoniker": "Testes\\Application.UnitTests\\Service\\UsersServiceTests.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Application.UnitTests\\Service\\UsersServiceTests.cs",
-              "RelativeToolTip": "Testes\\Application.UnitTests\\Service\\UsersServiceTests.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:45:28.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsersService.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\UsersService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\UsersService.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\UsersService.cs",
-              "RelativeToolTip": "Application\\Services\\UsersService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:45:06.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskItemServiceTests.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Application.UnitTests\\Service\\TaskItemServiceTests.cs",
-              "RelativeDocumentMoniker": "Testes\\Application.UnitTests\\Service\\TaskItemServiceTests.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Application.UnitTests\\Service\\TaskItemServiceTests.cs",
-              "RelativeToolTip": "Testes\\Application.UnitTests\\Service\\TaskItemServiceTests.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwCsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:43:13.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TaskItemService.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\TaskItemService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\TaskItemService.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\TaskItemService.cs",
-              "RelativeToolTip": "Application\\Services\\TaskItemService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:42:31.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProjectsServiceTests.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Application.UnitTests\\Service\\ProjectsServiceTests.cs",
-              "RelativeDocumentMoniker": "Testes\\Application.UnitTests\\Service\\ProjectsServiceTests.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Application.UnitTests\\Service\\ProjectsServiceTests.cs",
-              "RelativeToolTip": "Testes\\Application.UnitTests\\Service\\ProjectsServiceTests.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:37:37.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProjectsService.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\ProjectsService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\ProjectsService.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\Services\\ProjectsService.cs",
-              "RelativeToolTip": "Application\\Services\\ProjectsService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:37:13.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UserControllerTests.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Api.UnitTests\\Controllers\\UserControllerTests.cs",
-              "RelativeDocumentMoniker": "Testes\\Api.UnitTests\\Controllers\\UserControllerTests.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Api.UnitTests\\Controllers\\UserControllerTests.cs",
-              "RelativeToolTip": "Testes\\Api.UnitTests\\Controllers\\UserControllerTests.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAkwGgAAAASAAAAAAAAAA==",
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UsersRepository.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Infrastructure\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:30:33.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProjectsControllerTests.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Api.UnitTests\\Controllers\\ProjectsControllerTests.cs",
-              "RelativeDocumentMoniker": "Testes\\Api.UnitTests\\Controllers\\ProjectsControllerTests.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Api.UnitTests\\Controllers\\ProjectsControllerTests.cs",
-              "RelativeToolTip": "Testes\\Api.UnitTests\\Controllers\\ProjectsControllerTests.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAowEsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:28:29.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskItemControllersTests.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Api.UnitTests\\Controllers\\TaskItemControllersTests.cs",
-              "RelativeDocumentMoniker": "Testes\\Api.UnitTests\\Controllers\\TaskItemControllersTests.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Api.UnitTests\\Controllers\\TaskItemControllersTests.cs",
-              "RelativeToolTip": "Testes\\Api.UnitTests\\Controllers\\TaskItemControllersTests.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwGEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:28:27.32Z",
+              "WhenOpened": "2024-12-04T00:03:37.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "CreateProjectRequest.cs",
-              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\DTO\\CreateProjectRequest.cs",
-              "RelativeDocumentMoniker": "Application\\DTO\\CreateProjectRequest.cs",
-              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Application\\DTO\\CreateProjectRequest.cs",
-              "RelativeToolTip": "Application\\DTO\\CreateProjectRequest.cs",
+              "Title": "UserTests.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Domain.UnitTests\\Entities\\UserTests.cs",
+              "RelativeDocumentMoniker": "Testes\\Domain.UnitTests\\Entities\\UserTests.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Domain.UnitTests\\Entities\\UserTests.cs",
+              "RelativeToolTip": "Testes\\Domain.UnitTests\\Entities\\UserTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwC4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:02:32.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskItemTests.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Domain.UnitTests\\Entities\\TaskItemTests.cs",
+              "RelativeDocumentMoniker": "Testes\\Domain.UnitTests\\Entities\\TaskItemTests.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Domain.UnitTests\\Entities\\TaskItemTests.cs",
+              "RelativeToolTip": "Testes\\Domain.UnitTests\\Entities\\TaskItemTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:59:28.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\TaskItem.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "Domain\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:59:09.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProjectTests.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Domain.UnitTests\\Entities\\ProjectTests.cs",
+              "RelativeDocumentMoniker": "Testes\\Domain.UnitTests\\Entities\\ProjectTests.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Domain.UnitTests\\Entities\\ProjectTests.cs",
+              "RelativeToolTip": "Testes\\Domain.UnitTests\\Entities\\ProjectTests.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:58:17.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersServiceTests.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Application.UnitTests\\Service\\UsersServiceTests.cs",
+              "RelativeDocumentMoniker": "Testes\\Application.UnitTests\\Service\\UsersServiceTests.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Application.UnitTests\\Service\\UsersServiceTests.cs",
+              "RelativeToolTip": "Testes\\Application.UnitTests\\Service\\UsersServiceTests.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:57:35.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectsServiceTests.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Application.UnitTests\\Service\\ProjectsServiceTests.cs",
+              "RelativeDocumentMoniker": "Testes\\Application.UnitTests\\Service\\ProjectsServiceTests.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Application.UnitTests\\Service\\ProjectsServiceTests.cs",
+              "RelativeToolTip": "Testes\\Application.UnitTests\\Service\\ProjectsServiceTests.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwC0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:57:40.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:56:59.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HistoryTests.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Domain.UnitTests\\Entities\\HistoryTests.cs",
+              "RelativeDocumentMoniker": "Testes\\Domain.UnitTests\\Entities\\HistoryTests.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Testes\\Domain.UnitTests\\Entities\\HistoryTests.cs",
+              "RelativeToolTip": "Testes\\Domain.UnitTests\\Entities\\HistoryTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:55:51.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EFunction.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Enums\\EFunction.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\EFunction.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Enums\\EFunction.cs",
+              "RelativeToolTip": "Domain\\Enums\\EFunction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:35:48.811Z",
+              "WhenOpened": "2024-12-03T23:54:41.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EStatus.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Enums\\EStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\EStatus.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Enums\\EStatus.cs",
+              "RelativeToolTip": "Domain\\Enums\\EStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:54:40.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EProperty.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Enums\\EProperty.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\EProperty.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Enums\\EProperty.cs",
+              "RelativeToolTip": "Domain\\Enums\\EProperty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:54:39.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Project.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:54:36.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "History.cs",
+              "DocumentMoniker": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Entities\\History.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\History.cs",
+              "ToolTip": "D:\\leticia\\testes\\todolist\\TodoList\\Domain\\Entities\\History.cs",
+              "RelativeToolTip": "Domain\\Entities\\History.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:54:33.464Z",
               "EditorCaption": ""
             }
           ]

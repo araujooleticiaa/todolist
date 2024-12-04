@@ -1,11 +1,10 @@
 ﻿using Application.Services.Interfaces;
 using Domain.Entities;
-using Domain.Entities.Domain.Entities;
 using Infrastructure.Repositories.Interfaces;
 
 namespace Application.Services
 {
-	public class UsersService : IUsersService
+    public class UsersService : IUsersService
 	{
 		private readonly IUsersRepository _usersRepository;
 		public UsersService(IUsersRepository usersRepository)

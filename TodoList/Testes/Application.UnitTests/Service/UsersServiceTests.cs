@@ -1,6 +1,6 @@
 ﻿using Application.Services;
 using Application.Services.Interfaces;
-using Domain.Entities.Domain.Entities;
+using Domain.Entities;
 using Infrastructure.Repositories.Interfaces;
 using Moq;
 namespace Application.UnitTests.Service
